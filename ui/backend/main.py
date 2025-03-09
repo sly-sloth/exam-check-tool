@@ -61,7 +61,7 @@ def run_evaluation_script():
 app = Flask(__name__)
 CORS(app)
 
-app.config['SECRET_KEY'] = 'Crypto'
+app.config['SECRET_KEY'] = 'BTP'
 # app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+pymysql://root:{MYSQL_ROOT_PASSWORD}@localhost/btp'
 # app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
